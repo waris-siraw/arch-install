@@ -9,4 +9,4 @@ focused on a clean and reproducible setup with i3WM.
 
 # Ricing & Dotfiles Configuration
 
-All personalized settings including ricing and the scripts used to automate my Arch linux setup are managed in my separate [Dotfiles Repository](https://github.com/Siraw/dotfiles).
+All personalized settings including ricing and the scripts used to automate my Arch linux setup are managed in my separate [Dotfiles Repository](https://github.com/waris-siraw/dotfiles).
