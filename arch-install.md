@@ -264,7 +264,7 @@ This example uses the Europe/Rome time zone.
 Adjust the value to match your local time zone as needed.
 
        # ln -sf /usr/share/zoneinfo/Europe/Rome /etc/localtime
-       # hwclock —-systohc
+       # hwclock --systohc
 
 ### Enable SSH, NetworkManager and DHCP
 
