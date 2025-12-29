@@ -121,7 +121,7 @@ Before proceeding, verify that `sda` corresponds to the correct physical disk to
 
        # lsblk
 
-If you plan to install Arch Linux on a secondary drive, replace all references to `sda` in this guide with the appropriate device name (for example, *sdb*, *nvme0n1*, etc.).
+If you plan to install Arch Linux on a secondary drive, replace all references to `sda` in this guide with the appropriate device name (for example, `sdb`, `nvme0n1`, etc.).
 
 This guide assumes a single-boot Arch Linux installation on a 250 GB disk.
 The disk will be partitioned into five partitions. You may adapt the partition layout, sizes, or number of partitions according to your own requirements.
@@ -250,6 +250,7 @@ Add this content to the file:
        LANG=en_US.UTF-8
        LANGUAGE=en_US
        LC_ALL=C
+Then:
 
        # nvim /etc/vconsole.conf
 
