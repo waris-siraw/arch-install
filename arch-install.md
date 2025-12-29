@@ -356,6 +356,25 @@ Only one of these lines should be enabled/uncommented at a time.
        # su - junior
        $ xdg-user-dirs-update
 
+### Wi-Fi setup (nmtui)
+
+Use this section to configure Wi-Fi when installing on a laptop or on systems without an Ethernet connection.
+
+       # nmtui
+       
+Once the interface opens, use your Arrow Keys, Tab, and Enter to navigate:
+
+    Select "Activate a connection": Highlight this option and press Enter.
+
+    Choose your Wi-Fi: Look for your Network Name (SSID) in the list.
+
+    Enter Credentials: Press Enter on your network. A pop-up will appear asking for your password.
+
+    Confirm: Type the password, use Tab to highlight <OK>, and press Enter.
+
+    Back out: Once the network shows an asterisk (*) next to it, it is active. Press Esc or navigate to <Back> then <Quit>.
+
+You can use the command `clear` to clear the screen.
 ### Install AUR package manager
 
        $ mkdir Sources
