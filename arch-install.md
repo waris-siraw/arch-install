@@ -341,12 +341,12 @@ Configure `sudo` access for users in the `wheel` group by uncommenting one of th
 
 To allow passwordless execution of commands with `sudo`(not recomended):
 
-       %wheel ALL=(ALL) NOPASSWD: ALL
+       %wheel ALL=(ALL:ALL) NOPASSWD: ALL
 
 
 To require password authentication for all commands executed with `sudo` (standard behavior on most Linux distributions):
      
-       %wheel ALL=(ALL) ALL
+       %wheel ALL=(ALL:ALL) ALL
     
 
 Only one of these lines should be enabled/uncommented at a time.
