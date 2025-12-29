@@ -82,6 +82,10 @@ If a passphrase is required, you will be prompted to enter it. Alternatively, it
 
        # iwctl --passphrase "passphrase" station "name" connect "SSID"
 
+To exit from iwctl:
+
+       # exit
+
 To make sure that internet is working:
 
        # ping 8.8.8.8
