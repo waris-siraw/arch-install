@@ -398,7 +398,6 @@ Install power management tools:
 
        $ sudo pacman -S --needed tlp tlp-rdw powertop acpi
        $ sudo systemctl enable tlp
-       $ sudo systemctl enable tlp-sleep
        $ sudo systemctl mask systemd-rfkill.service
        $ sudo systemctl mask systemd-rfkill.socket
 
