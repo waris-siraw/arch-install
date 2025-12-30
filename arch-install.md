@@ -367,6 +367,10 @@ To require password authentication for all commands executed with `sudo` (standa
      
        %wheel ALL=(ALL:ALL) ALL
     
+   `clear` to clear screen:
+
+       # clear 
+    
 
 Only one of these lines should be enabled/uncommented at a time.
 
@@ -434,7 +438,7 @@ TRIM should be enabled on systems using solid-state drives (SSD) to maintain per
 ### Install graphical environment and i3
 
        $ sudo pacman -S xorg-server xorg-apps xorg-xinit
-       $ sudo pacman -S i3-gaps i3blocks i3lock numlockx
+       $ sudo pacman -S i3-gaps i3status i3lock numlockx
 
 ### Install display manager
 
