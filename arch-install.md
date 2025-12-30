@@ -314,6 +314,11 @@ Add the following content to the file:
 
 Replace `arch-rabbit` with your system hostname.
 
+`clear` to clear screen:
+
+       # clear
+
+
 ### Install other useful packages
 
        # pacman -S iw wpa_supplicant dialog intel-ucode git reflector lshw unzip btop
