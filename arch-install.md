@@ -240,6 +240,11 @@ The output should resemble the following example:
 
        # nvim /etc/locale.gen
 
+`clear` to clear screen:
+
+       # clear
+       
+
 Uncomment the locale corresponding to your preferred language (for example, `en_US.UTF-8 UTF-8`).
 
        # locale-gen
@@ -250,6 +255,10 @@ Add this content to the file:
        LANG=en_US.UTF-8
        LANGUAGE=en_US
        LC_ALL=C
+       
+`clear` to clear screen:
+
+       # clear
 Then:
 
        # nvim /etc/vconsole.conf
@@ -257,6 +266,10 @@ Then:
 Add this content to the file:
 
        KEYMAP=us
+       
+`clear` to clear screen:
+
+       # clear
 
 ### Configure timezone
 
@@ -281,7 +294,8 @@ These services will be enabled to start automatically at system startup.
        # grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=arch
        # grub-mkconfig -o /boot/grub/grub.cfg
 
-You may replace `arch` with any identifier you prefer, as long as it remains consistent throughout the installation.
+You may replace `arch` with any identifier you prefer, this only defines the name shown in your `UEFI/BIOS` boot menu,it has zero impact on the system `hostname`, `networking`, or `login`.
+
 ### Choose a name for your computer
 
 Assuming the system hostname is set to `arch-rabbit`:
